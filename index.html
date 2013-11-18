@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>test page</title>
+
+    <!-- libraries code include -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <!-- end libraries -->
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="js/SuitEnum.js"></script>
+    <script src="js/RankEnum.js"></script>
+    <script src="js/Card.js"></script>
+    <script src="js/Deck.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/GameEngine.js"></script>
+    <script src="js/code.js"></script>
+
+</head>
+<body>
+    <header>Snap</header>
+    <div id="snap">
+        <div id="deckscontainer">
+            <div id="ai" class="card-deck">Computer</div>
+            <div id="deck" class="card-deck">Deck</div>
+            <div id="player" class="card-deck">Player</div>
+        </div>
+       
+    </div>
+    <div id="controls">
+        <button id="startNewGame">Start new game</button>
+        <br />
+        <span>Reaction time: </span>
+        <input type="range" id="aiDelay" min="100" max="3000" />
+        <span></span>
+        <br />
+        <span>Card open delay: </span>
+        <input type="range" id="aiCardOpen" min="100" max="3000" />
+        <span></span>
+    </div>
+
+    <footer>Some info goes here</footer>
+</body>
+</html>

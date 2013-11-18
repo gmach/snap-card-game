@@ -1,0 +1,103 @@
+﻿body {
+    font-size: 16px;
+    text-align: center;
+}
+
+header {
+    font-size: 2em;
+    margin: 25px;
+}
+
+div#snap {
+    margin: 0 auto;
+    background-color: #60a133;
+    width: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #333333;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+}
+
+    div#snap > div > div {
+        text-align: center;
+        width: 200px;
+        height: 250px;
+        margin: 30px;
+        border: 1px solid green;
+        display: inline-block;
+    }
+
+footer {
+    margin: 25px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+div#controls {
+    margin: 20px;
+}
+
+    div#controls > button {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    div#controls > input[type="range"] {
+        width: 300px;
+    }
+
+.card-deck {
+    background: none repeat scroll 0 0 #666666;
+    color: #FFFFFF;
+    font-size: 2em;
+    -webkit-text-shadow: 0 0 3px #000000;
+    text-shadow: 0 0 3px #000000;
+}
+
+div#snap > div > div > div.card {
+    width: 120px;
+    height: 200px;
+    color: yellow;
+    position: absolute;
+    background: teal;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background-image: url("../img/fdibk1.gif");
+}
+
+div#snap > div > div > div.open {
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div#snap > div > div > div.open h1{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.spade {
+    width: 100px;
+    height: 140px;
+    background: url("../img/club_heart_space_diamond.jpg") 1px -16px no-repeat; 
+}
+
+.heart {
+    width: 100px;
+    height: 140px;
+    background: url("club_heart_space_diamond.jpg") -97px -16px no-repeat; 
+}
+
+.club {
+    width: 100px;
+    height: 140px;
+    background: url("club_heart_space_diamond.jpg") -194px -16px no-repeat; 
+}
+
+.diamond {
+    width: 100px;
+    height: 140px;
+    background: url("club_heart_space_diamond.jpg") -292px -16px no-repeat; 
+}
